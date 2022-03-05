@@ -69,34 +69,38 @@ function scrollToPopular() {
 scrollToPopular();
 const news = [
     {
-        url: 'https://aur-vesti.info/news/novosti/2022-02-27/glava-bashkirii-nazval-olimpiytsev-zaschitnikami-rodiny-2708377',
         title: 'Глава Башкирии назвал олимпийцев защитниками Родины',
         date: 'Февраль, 27 2022 15:49',
-        popular: false
+        popular: false,
+        text: ''
     },
     {
         url: 'https://aur-vesti.info/articles/turizm/2022-03-02/v-kakih-stranah-mogut-otdohnut-zhiteli-bashkirii-rosturizm-2712293',
         title: 'В каких странах могут отдохнуть жители Башкирии - Ростуризм',
         date: 'Март, 02 2022 16:18',
-        popular: false
+        popular: false,
+        text: ''
     },
     {
         url: 'https://aur-vesti.info/articles/proisshestviya/2022-03-02/ufimets-s-sudimostyu-vspomnil-proshloe-i-vzyalsya-za-nozh-2712344',
         title: 'Уфимец с судимостью вспомнил прошлое и взялся за нож',
         date: 'Март, 02 2022 16:28',
-        popular: true
+        popular: true,
+        text: ''
     },
     {
         url: 'https://aur-vesti.info/articles/obshchestvo/2022-03-02/zhitel-bashkirii-rasskazal-kak-potratit-vyigrannyy-v-lotereyu-million-2712352',
         title: 'Житель Башкирии рассказал, как потратит выигранный в лотерею миллион',
         date: 'Март, 02 2022 16:46',
-        popular: false
+        popular: false,
+        text: ''
     },
     {
         url: 'https://aur-vesti.info/news/sport/2022-03-02/v-aurgazinskom-rayone-proydet-prazdnik-sporta-lyzhnya-shlanly-2022-2712371',
         title: 'В Аургазинском районе пройдет праздник спорта «Лыжня Шланлы 2022»',
         date: 'Март, 02 2022 16:52',
-        popular: false
+        popular: false,
+        text: ''
     },
 ];
 lookNews = function() {
